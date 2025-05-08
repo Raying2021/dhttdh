@@ -1,0 +1,659 @@
+{
+  "scenes": {},
+  "script": [
+
+      {
+          "type": "background",
+          "file": "images/Act0/blackScreen.png"
+      },
+      {
+          "type": "wait",
+          "duration": 2.0
+      },
+      {
+          "type": "background",
+          "file": "images/Act0/trainCountryside.png"
+      },
+        {
+            "type": "oil_drain_challenge"
+        },
+      {
+          "type": "sound",
+          "file": "sounds/sound_effects/passingTrain.mp3"
+      },
+      {
+          "type": "oil_drain_challenge"
+      },
+      {
+          "type": "music",
+          "file": "sounds/music/casualTime.mp3",
+          "loop": true
+      },
+      
+      {
+          "type": "dialogue",
+          "speaker": "Narrator",
+          "text": "~Anaira: The countryside 1 PM~ :The countryside glowed under the midday sun, golden fields swaying in the breeze as the train prepared to stop."
+      },
+      {
+        "type" : "tube_game"
+      },
+      {
+          "type": "dialogue",
+          "speaker": "Narrator",
+          "text": "As he went down the station stairs, Chiheb checked up his phone:"
+      },
+      {
+          "type": "background",
+          "file": "images/Act0/phone.png"
+      },
+      {
+          "type": "character",
+          "name": "Nova",
+          "position": "left"
+      },
+      {
+          "type": "dialogue",
+          "speaker": "Nova",
+          "text": "Hey! I must go on an urgent work trip and I’m not sure when I’ll be back. Can you look after my house? My car’s there too. I’ll call you as soon as I can. The address is 5 Rivière de L’aubergine, Anaira. Let me know if that works for you!"
+      },
+      {
+          "type": "character",
+          "name": "chihebHappy",
+          "position": "left"
+      },
+      {
+          "type": "dialogue",
+          "speaker": "Chiheb",
+          "text": "No problem, I’ve got it covered. Just focus on your work."
+      },
+      {
+          "type": "character",
+          "name": "Nova",
+          "position": "left"
+      },
+      {
+          "type": "dialogue",
+          "speaker": "Nova",
+          "text": "Thanks, you’re a lifesaver! I’ll keep you updated as soon as I know more about my return."
+      },
+      {
+          "type": "background",
+          "file": "images/Act0/house.png"
+      },
+      {
+          "type": "character",
+          "name": "Narrator",
+          "position": "left"
+      },
+      {
+          "type": "dialogue",
+          "speaker": "Narrator",
+          "text": "The house sat quietly at the edge of a quiet countryside road, a small matching garage stood to the side, its doors slightly ajar, revealing the glint of a car inside."
+      },
+      {
+          "type": "character",
+          "name": "chihebHappy",
+          "position": "left"
+      },
+      {
+          "type": "dialogue",
+          "speaker": "Chiheb",
+          "text": "Aaah I finally made it, I'm so tired of the trip. Tonight I'm going to relax."
+      },
+      {
+          "type": "music",
+          "file": "sounds/music/casualTime.mp3",
+          "loop": false,
+          "stop": true
+      },
+      {
+        "type": "music",
+        "stop": true
+      },
+      {
+          "type": "background",
+          "file": "images/Act0/blackScreen.png"
+      },
+      
+      {
+        "type": "character",
+        "name": "Nova",
+        "position": "left"
+    },
+      {
+        "type": "dialogue",
+        "speaker": "Narrator",
+        "text": "~Anaira: The countryside 1 AM ~ Nova's Living Room"
+    },
+
+    {
+        "type": "sound",
+        "file": "sounds/sound_effects/cricketSound.mp3"
+    },
+    {
+        "type": "character",
+        "name": "Narrator",
+        "position": "left"
+    },
+    {
+        "type": "dialogue",
+        "speaker": "Narrator",
+        "text": "The distant chirp of crickets and rustling trees filled the night..."
+    },
+    {
+        "type": "sound",
+        "file": "sounds/sound_effects/engineStart.mp3"
+    },
+    {
+        "type": "character",
+        "name": "Narrator",
+        "position": "left"
+    },
+    {
+        "type": "dialogue",
+        "speaker": "Narrator",
+        "text": "A mechanical hum suddenly echoed through the house, jarring Chiheb awake."
+    },
+    {
+        "type": "sound",
+        "file": "sounds/sound_effects/engineRunning.mp3",
+        "loop": true
+    },
+    {
+        "type": "music",
+        "file": "sounds/music/intrigue.mp3",
+        "loop": true
+    },
+    {
+        "type": "background",
+        "file": "images/Act0/garageDoor.png"
+    },
+    {
+        "type": "character",
+        "name": "chihebNeutral",
+        "position": "left"
+    },
+    {
+        "type": "dialogue",
+        "speaker": "Chiheb",
+        "text": "Huh? What was that sound?"
+    },
+    {
+        "type": "sound",
+        "file": "sounds/sound_effects/footsteps.mp3"
+    },
+    {
+        "type": "background",
+        "file": "images/Act0/garageDoorZoomed.png"
+    },
+    {
+        "type": "character",
+        "name": "chihebNeutral",
+        "position": "left"
+    },
+    {
+        "type": "dialogue",
+        "speaker": "Chiheb",
+        "text": "Why’s the garage door open ? Did I forget to close it? Man, I’m too tired for this..."
+    },
+    {
+        "type": "sound",
+        "file": "sounds/sound_effects/openDoor.mp3"
+    },
+    {
+        "type": "flash",
+        "color": "WHITE",
+        "duration": 1.0
+    },
+    {
+        "type": "background",
+        "file": "images/Act0/novaGarage.png"
+    },
+    {
+        "type": "character",
+        "name": "chihebNeutral",
+        "position": "left"
+    },
+    {
+        "type": "dialogue",
+        "speaker": "Chiheb",
+        "text": "What...? How is the car engine running? I didn’t even touch the keys..."
+    },
+    {
+        "type": "character",
+        "name": "chihebNeutral",
+        "position": "left"
+    },
+    {
+        "type": "dialogue",
+        "speaker": "Chiheb",
+        "text": "This is so weird...I better turn it off and go back to sleep."
+    },
+    {
+        "type": "sound",
+        "file": "sounds/sound_effects/footsteps.mp3"
+    },
+    {
+      "type": "wait",
+      "duration": 2.0
+    },
+    {
+        "type": "background",
+        "file": "images/Act0/carDoorClosed.png"
+    },
+    {
+        "type": "sound",
+        "file": "sounds/sound_effects/carDoor.mp3"
+    },
+    {
+        "type": "background",
+        "file": "images/Act0/carDoorOpen.png"
+    },
+    {
+        "type": "music",
+        "file": "sounds/music/intrigue.mp3",
+        "loop": false
+    },
+    {
+        "type": "sound",
+        "file": "sounds/sound_effects/engineRunning.mp3",
+        "loop": false
+    },
+    {
+        "type": "background",
+        "file": "images/Act0/blackScreen.png"
+    },
+    {
+        "type": "sound",
+        "file": "sounds/sound_effects/hitfall.mp3"
+    },
+    {
+        "type": "shake",
+        "intensity": 15,
+        "duration": 0.5
+    },
+    {
+      "type": "character",
+      "name": "Nova",
+      "position": "left"
+    },
+    {
+      "type": "dialogue",
+      "speaker": "Narrator",
+      "text": "~Anaira: The countryside ?? AM ~ Nova's garage "
+  },
+  {
+      "type": "character",
+      "name": "chihebNervous",
+      "position": "left"
+  },
+  {
+      "type": "dialogue",
+      "speaker": "Chiheb",
+      "text": "Ugh ... what happened ???"
+  },
+  {
+      "type": "character",
+      "name": "chihebAnxiety",
+      "position": "left"
+  },
+  {
+      "type": "dialogue",
+      "speaker": "Chiheb",
+      "text": "What the- ?!"
+  },
+  {
+      "type": "background",
+      "file": "images/Act0/metalArm.png"
+  },
+  {
+      "type": "shake",
+      "intensity": 15,
+      "duration": 0.5
+  },
+  {
+      "type": "sound",
+      "file": "sounds/sound_effects/nani.mp3"
+  },
+  {
+      "type": "character",
+      "name": "chihebShocked",
+      "position": "left"
+  },
+  {
+      "type": "dialogue",
+      "speaker": "Chiheb",
+      "text": "AAAAAAH! WHAT IS THIS ?!"
+  },
+  {
+      "type": "background",
+      "file": "images/Act0/nebula.png"
+  },
+  {
+      "type": "character",
+      "name": "nebulaAngry",
+      "position": "Right"
+  },
+  {
+      "type": "dialogue",
+      "speaker": "Nebula",
+      "text": "EEEEY! SHUT IT, WILL YOU? YOU’RE BUSTING MY EARS!"
+  },
+  {
+      "type": "fade",
+      "color": "Black",
+      "duration": 1.0
+  },
+  {
+      "type": "background",
+      "file": "images/Act0/novaGarage.png"
+  },
+  {
+      "type": "music",
+      "file": "sounds/music/casualTime.mp3",
+      "loop": true
+  },
+  {
+      "type": "character",
+      "name": "chihebShocked",
+      "position": "left"
+  },
+  {
+      "type": "dialogue",
+      "speaker": "Chiheb",
+      "text": "What... WHO ARE YOU?! And what’s this thing on my arm?!"
+  },
+  {
+      "type": "character",
+      "name": "nebulaNeutral",
+      "position": "Right"
+  },
+  {
+      "type": "dialogue",
+      "speaker": "Nebula",
+      "text": "I am 01001110 01100101 01100010 01110101 01101100 01100001 00001010, but you can call me Nebula"
+  },
+  {
+      "type": "character",
+      "name": "nebulaNeutral",
+      "position": "Right"
+  },
+  {
+      "type": "dialogue",
+      "speaker": "Nebula",
+      "text": "And you bonded with the car. Now you’re stuck with it. Tough luck"
+  },
+  {
+      "type": "character",
+      "name": "chihebNervous",
+      "position": "left"
+  },
+  {
+      "type": "dialogue",
+      "speaker": "Chiheb",
+      "text": "No way! Get this off me! I didn’t sign up for this! I’m not even MARRIED yet"
+  },
+  {
+      "type": "character",
+      "name": "nebulaNeutral",
+      "position": "Right"
+  },
+  {
+      "type": "dialogue",
+      "speaker": "Nebula",
+      "text": "There’s a map in the system. It leads to the car’s creator. If anyone can fix this, it’s him—if he’s still alive."
+  },
+  {
+    "type": "music",
+    "stop": true
+  }, 
+  
+  {
+    "type": "background",
+    "file": "images/Act0/mapAct0.png"
+},
+{
+    "type": "dialogue",
+    "speaker": "Narrator",
+    "text": "The holographic map showed Chiheb current position"
+},
+{
+    "type": "background",
+    "file": "images/Act0/novaGarage.png"
+},
+{
+    "type": "character",
+    "name": "chihebNervous",
+    "position": "left"
+},
+{
+    "type": "dialogue",
+    "speaker": "Chiheb",
+    "text": "It only shows our current position ! How’s that helpful?!"
+},
+{
+    "type": "character",
+    "name": "nebulaNeutral",
+    "position": "Right"
+},
+{
+    "type": "dialogue",
+    "speaker": "Nebula",
+    "text": "That’s all I’ve got. Take it or leave it."
+},
+{
+    "type": "character",
+    "name": "chihebNervous",
+    "position": "left"
+},
+{
+    "type": "dialogue",
+    "speaker": "Chiheb",
+    "text": "Fine. I’ll figure this out myself, I’ll pack up and leave right away"
+},
+{
+    "type": "character",
+    "name": "nebulaNotification",
+    "position": "Right"
+},
+{
+    "type": "dialogue",
+    "speaker": "Nebula",
+    "text": "Whoa there, speedster! You can’t take off like this."
+},
+{
+    "type": "character",
+    "name": "nebulaNeutral",
+    "position": "Right"
+},
+{
+    "type": "dialogue",
+    "speaker": "Nebula",
+    "text": "Unless you want to end up stranded in the middle of nowhere, you need to check and maintain the car before any long trip."
+},
+{
+    "type": "character",
+    "name": "chihebAnxiety",
+    "position": "left"
+},
+{
+    "type": "dialogue",
+    "speaker": "Chiheb",
+    "text": "But-"
+},
+{
+    "type": "character",
+    "name": "nebulaAngry",
+    "position": "Right"
+},
+{
+    "type": "dialogue",
+    "speaker": "Nebula",
+    "text": "No BUTS !!"
+},
+{
+    "type": "shake",
+    "intensity": 15,
+    "duration": 0.5
+},
+{
+    "type": "character",
+    "name": "chihebBored",
+    "position": "left"
+},
+{
+    "type": "dialogue",
+    "speaker": "Chiheb",
+    "text": "Fine. What do I need to check?"
+},
+{
+    "type": "music",
+    "file": "sounds/music/casualTime.mp3",
+    "loop": false
+},
+{
+    "type" : "tube_game"
+  },
+{
+  "type": "background",
+  "file": "images/Act0/blackScreen.png"
+},
+{
+  "type": "character",
+  "name": "Nova",
+  "position": "left"
+},
+{
+  "type": "dialogue",
+  "speaker": "Narrator",
+  "text": "~Anaira: The countryside 4 AM ~ Nova's garage"
+},
+{
+  "type": "background",
+  "file": "images/Act0/garageNoFog.png"
+},
+{
+  "type": "dialogue",
+  "speaker": "Narrator",
+  "text": "While Chiheb worked on the car..."
+},
+{
+  "type": "music",
+  "file": "sounds/music/intrigue.mp3",
+  "loop": true
+},
+{
+  "type": "fade",
+  "color": "Black",
+  "duration": 1.0
+},
+{
+  "type": "background",
+  "file": "images/Act0/garageFog.png"
+},
+{
+  "type": "dialogue",
+  "speaker": "Narrator",
+  "text": "A thick fog began to form outside"
+},
+{
+  "type": "background",
+  "file": "images/Act0/stone.png"
+},
+{
+  "type": "dialogue",
+  "speaker": "Narrator",
+  "text": "Small rocks and debris on the ground trembled slightly, as if something massive were moving in the distance"
+},
+{
+  "type": "shake",
+  "intensity": 15,
+  "duration": 0.5
+},
+{
+  "type": "sound",
+  "file": "sounds/sound_effects/notification.mp3"
+},
+{
+  "type": "character",
+  "name": "nebulaNotification",
+  "position": "Right"
+},
+{
+  "type": "dialogue",
+  "speaker": "Nebula",
+  "text": "Kid, we’ve got a problem. I’m picking up a signal—something big, something close. You need to wrap this up NOW"
+},
+{
+  "type": "character",
+  "name": "chihebBored",
+  "position": "Left"
+},
+{
+  "type": "dialogue",
+  "speaker": "Chiheb",
+  "text": "What are you talking about? Weren’t you the one urging me to check the car before leaving ???"
+},
+{
+  "type": "shake",
+  "intensity": 15,
+  "duration": 0.5
+},
+{
+  "type": "character",
+  "name": "nebulaNotification",
+  "position": "Right"
+},
+{
+  "type": "dialogue",
+  "speaker": "Nebula",
+  "text": "No time for that! Leave everything as it is. Trust me, you don’t want to stick around to find out what’s coming."
+},
+{
+  "type": "background",
+  "file": "images/Act0/hitRoad.png"
+},
+{
+  "type": "sound",
+  "file": "sounds/sound_effects/carSuddenStartup.mp3"
+},
+{
+  "type": "character",
+  "name": "Nova",
+  "position": "left"
+},
+{
+  "type": "dialogue",
+  "speaker": "Narrator",
+  "text": "Without further delay Chiheb jumped in the driver seat and slammed the car into gear"
+},
+{
+  "type": "dialogue",
+  "speaker": "Narrator",
+  "text": "In the rearview mirror...far in the distance, two glowing yellow lights pierced the darkness... hovering high in the sky like unblinking eyes. They shone with an eerie intensity, watching, waiting..."
+},
+{
+  "type": "dialogue",
+  "speaker": "Narrator",
+  "text": "Act 0- END"
+},
+{
+  "type": "music",
+  "file": "sounds/music/intrigue.mp3",
+  "loop": false
+},
+{
+  "type": "background",
+  "file": "images/Act0/transition.png"
+}
+
+
+
+
+  ]
+}
+
+
+
+

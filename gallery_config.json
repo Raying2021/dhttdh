@@ -1,0 +1,23 @@
+{
+  "act0_train": {
+    "title": "Country Train Scene",
+    "description": "A scenic view of a train traveling through the countryside",
+    "image_path": "images/Act0/train.countryside.png",
+    "category": "Backgrounds",
+    "unlock_requirement": "View Act 0"
+  },
+  "char_chiheb": {
+    "title": "Chiheb",
+    "description": "Character portrait of Chiheb",
+    "image_path": "images/characters/Chiheb.png",
+    "category": "Characters",
+    "unlock_requirement": "Meet Chiheb in Act 0"
+  },
+  "char_nebula": {
+    "title": "Nebula",
+    "description": "Character portrait of Nebula",
+    "image_path": "images/characters/nebula.png",
+    "category": "Characters",
+    "unlock_requirement": "Meet Nebula in Act 1"
+  }
+}
